@@ -10,21 +10,38 @@
           
           sudo npm i -g typescript
           
-3. Install VSCode from https://code.visualstudio.com/Download
+3. To check version of Typescript command
 
-4. Read: https://bobbyhadz.com/blog/typescript-generate-tsconfig-json
+           tsc --version
+           
+           If this command gives error like 
+           
+           + CategoryInfo          : SecurityError: (:) [], PSSecurityException
+           + FullyQualifiedErrorId : UnauthorizedAccess
+           
+           Then rigt click on start menu and open window power shell as administrator type this command
+           
+           Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+           
+           Remember:- You can always revert the changes you made with the following command:
 
-5. Read: https://www.typescripttutorial.net/typescript-tutorial/typescript-hello-world/
+            Set-ExecutionPolicy Restricted
 
-6. Generate tsconfig.json by giving this command:
+4. Install VSCode from https://code.visualstudio.com/Download
+
+5. Read: https://bobbyhadz.com/blog/typescript-generate-tsconfig-json
+
+6. Read: https://www.typescripttutorial.net/typescript-tutorial/typescript-hello-world/
+
+7. Generate tsconfig.json by giving this command:
           
           tsc --init
           
-7. Make it a Node.js project by giving the following command:
+8. Make it a Node.js project by giving the following command:
           
           npm init -y
           
-8. Create file app.ts
+9. Create file app.ts
 
 We have used string type to store and print the message.
 Note that the most basic types in TypeScript correspond to the seven basic kinds of primitives in JavaScript:
@@ -37,11 +54,11 @@ Note that the most basic types in TypeScript correspond to the seven basic kinds
           6. bigint // 0n, 5n, -10n
           7. symbol // Symbol(), Symbol("hi"),
           
-9. Transpile JavaScript by running:
+10. Transpile JavaScript by running:
 
           tsc
           
-10. Run transpiled javascript by running the following command:
+11. Run transpiled javascript by running the following command:
           
           node app
           
