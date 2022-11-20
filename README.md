@@ -41,7 +41,7 @@
           
           npm init -y
           
-9. Create file app.ts
+9. Create file index.ts
 
 We have used string type to store and print the message.
 Note that the most basic types in TypeScript correspond to the seven basic kinds of primitives in JavaScript:
