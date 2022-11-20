@@ -6,7 +6,7 @@
  	        
           npm install -g typescript
           
-  if above code did not work then give permission with sudo
+          For Linux
           
           sudo npm i -g typescript
           
