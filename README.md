@@ -60,6 +60,6 @@ Note that the most basic types in TypeScript correspond to the seven basic kinds
           
 11. Run transpiled javascript by running the following command:
           
-          node app
+          node index.ts
           
 11. Also Read: https://code.visualstudio.com/Docs/languages/typescript
