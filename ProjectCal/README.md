@@ -60,7 +60,7 @@ It will creade tsconfig.json and package.json files. Open tsconfig.json file and
 
     npm i chalk-animation     
 
-[For more information and documentation about inquirer](<href = "https://www.npmjs.com/package/inquirer?activeTab=readme" target = "blank"/>) (:target = "blank")
+[For more information and documentation about inquirer]<href> = "https://www.npmjs.com/package/inquirer?activeTab=readme" target = "blank"</a>
 
 [for more information about @types/inquirer](https://www.npmjs.com/package/@types/inquirer){:target="_blank"}
 
