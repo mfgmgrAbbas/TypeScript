@@ -13,7 +13,7 @@ If you want to run TypeScript tsc command in Windows Powershell:
 
         Set-ExecutionPolicy RemoteSigned
 
-[Policy updated and now you can run tsc command in powershell.](<href = "https://islenmisveri.wordpress.com/2021/01/31/working-with-scripts-in-powershell-typescript-compiler-tsc-problem-fix/" taget = "blank"/>)
+[Policy updated and now you can run tsc command in powershell.](https://islenmisveri.wordpress.com/2021/01/31/working-with-scripts-in-powershell-typescript-compiler-tsc-problem-fix/)
 
 
 2. Make it a Node.js project by giving the following command:
@@ -64,9 +64,9 @@ It will creade tsconfig.json and package.json files. Open tsconfig.json file and
 
 [for more information about @types/inquirer](https://www.npmjs.com/package/@types/inquirer)
 
-[for more information and documentation about chalk](https://www.npmjs.com/package/chalk){:target="_blank"}
+[for more information and documentation about chalk](https://www.npmjs.com/package/chalk)
 
-[for about chalk-animation](https://www.npmjs.com/package/@types/chalk-animation){:target="_blank"}
+[for about chalk-animation](https://www.npmjs.com/package/@types/chalk-animation)
 
 9. Create new fie calculator.ts and import the required dependicies by following commands
 
