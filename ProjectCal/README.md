@@ -13,7 +13,7 @@ If you want to run TypeScript tsc command in Windows Powershell:
 
         Set-ExecutionPolicy RemoteSigned
 
-[Policy updated and now you can run tsc command in powershell.](https://islenmisveri.wordpress.com/2021/01/31/working-with-scripts-in-powershell-typescript-compiler-tsc-problem-fix/)
+[Policy updated and now you can run tsc command in powershell.](https://islenmisveri.wordpress.com/2021/01/31/working-with-scripts-in-powershell-typescript-compiler-tsc-problem-fix/){:target="_blank"}
 
 
 2. Make it a Node.js project by giving the following command:
@@ -60,13 +60,13 @@ It will creade tsconfig.json and package.json files. Open tsconfig.json file and
 
     npm i chalk-animation     
 
-[For more information and documentation about inquirer](https://www.npmjs.com/package/inquirer?activeTab=readme)
+[For more information and documentation about inquirer](https://www.npmjs.com/package/inquirer?activeTab=readme){:target="_blank"}
 
-[for more information about @types/inquirer](https://www.npmjs.com/package/@types/inquirer)
+[for more information about @types/inquirer](https://www.npmjs.com/package/@types/inquirer){:target="_blank"}
 
-[for more information and documentation about chalk](https://www.npmjs.com/package/chalk)
+[for more information and documentation about chalk](https://www.npmjs.com/package/chalk){:target="_blank"}
 
-[for about chalk-animation](https://www.npmjs.com/package/@types/chalk-animation)
+[for about chalk-animation](https://www.npmjs.com/package/@types/chalk-animation){:target="_blank"}
 
 9. Create new fie calculator.ts and import the required dependicies by following commands
 
@@ -82,5 +82,5 @@ It will creade tsconfig.json and package.json files. Open tsconfig.json file and
 
 11. Open chalk-animvation cli
 
-12. [Copy calculator image and insert it](https://www.asciiart.eu/electronics/calculators)
+12. [Copy calculator image and insert it](https://www.asciiart.eu/electronics/calculators){:target="_blank"}
 
