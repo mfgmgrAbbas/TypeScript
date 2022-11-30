@@ -60,7 +60,7 @@ It will creade tsconfig.json and package.json files. Open tsconfig.json file and
 
     npm i chalk-animation     
 
-[For more information and documentation about inquirer](href = https://www.npmjs.com/package/inquirer?activeTab=readme)
+[For more information and documentation about inquirer](https://www.npmjs.com/package/inquirer?activeTab=readme)
 
 [for more information about @types/inquirer](https://www.npmjs.com/package/@types/inquirer)
 
