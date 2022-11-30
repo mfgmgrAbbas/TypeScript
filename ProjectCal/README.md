@@ -60,9 +60,9 @@ It will creade tsconfig.json and package.json files. Open tsconfig.json file and
 
     npm i chalk-animation     
 
-[For more information and documentation about inquirer]<href> = "https://www.npmjs.com/package/inquirer?activeTab=readme" target = "blank"</a>
+[For more information and documentation about inquirer](href = https://www.npmjs.com/package/inquirer?activeTab=readme)
 
-[for more information about @types/inquirer](https://www.npmjs.com/package/@types/inquirer){:target="_blank"}
+[for more information about @types/inquirer](https://www.npmjs.com/package/@types/inquirer)
 
 [for more information and documentation about chalk](https://www.npmjs.com/package/chalk){:target="_blank"}
 
@@ -82,5 +82,34 @@ It will creade tsconfig.json and package.json files. Open tsconfig.json file and
 
 11. Open chalk-animvation cli
 
-12. [Copy calculator image and insert it](https://www.asciiart.eu/electronics/calculators){:target="_blank"}
+12. [Copy calculator image and insert it](https://www.asciiart.eu/electronics/calculators)
+
+13. Inssert chalk animation by following command
+chalkAnimation.rainbow('Please waite your calculator will be loaded soon');
+
+14. For detail consult calculator.ts file.
+
+16. Insert bin in the package.json file
+
+    "bin": "./calculator.js"
+
+    if error then change the name also give unique name.
+
+15. Login to NPM by following command
+
+    npm login
+
+16. tsc
+
+17. Now publish the app by follwoing command
+
+    npm publish
+
+18. Get the link from npm website and insert into terminal and run it
+
+    npm i abbas-projectcal
+
+19. Now run the app by following command
+
+    npx abbas-projectcal
 
