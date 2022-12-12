@@ -1,6 +1,4 @@
 
-const firstName = "Abbas"
-const nameLength = firstName.length() // it gives error taking red underline
 
 function sayMyName (fullname){
     console.log(`My full name is ${fullname}`);
@@ -9,20 +7,6 @@ function sayMyName (fullname){
 sayMyName("Abbas", "Shah") /* also gives error because we one param while defining fumction now giving them two whcich 
 not allowed in typeScript but it will run in js File.*/
 
-// type of errors
-/* Syntax
-Blocking TypeScript from being converted to JavaScript
-Type
-Something mismatched has been detected by the type checker
-The differences between the two are important.
-*/
-// Assignability
-
-let fName = "Carole";
-fName = "Joan";
-
-let lName = "King";
-lName = true;      // cannot assignment different data type.
 
 // Type Annotations
 
