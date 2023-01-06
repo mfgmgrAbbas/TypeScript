@@ -1,7 +1,7 @@
 {
     "script": "app.js",
     "watch": ["src", "public"],
-    "ext": "ts, html, css",
+    "ext": "ts",
     "exec": "ts-node"
   }
   
