@@ -16,9 +16,10 @@ Generate tsconfig.json by giving this command:
 
     tsc --init
 
-Other 
+Others
 
 npm i nodemon
+
 npm i --save-dav @types/jest
 
 
