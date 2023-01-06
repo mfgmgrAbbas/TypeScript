@@ -24,6 +24,11 @@ npm i --save-dav @types/jest
 
 
 Vechical class created in Vehical.ts file and Vehicle test are in Vehicle.test.ts
+
 Air Vechical class created in Air Vehical.ts file and Vehicle test are in airVehicle.test.ts
+
 Two functions were create describeVehicleXPosition function, and moveVehicles Forward function.
-Each class has its own file, and both functions should be in the functions.ts file. There is also a file for the tests for each class and functions.test.ts for the function tests.
+
+Each class has its own file, and both functions are in the functions.ts file. 
+
+There is also a file for the tests for each class and functions.test.ts for the function tests.
