@@ -28,7 +28,7 @@ export default function Home() {
             <li>Machine Learning</li>
             <li>MetaVerse Web3.0</li>
             </ol><br></br></div>
-          <div> <h3>You can join us by visting our blog</h3> </div>
+          <div> <h3>You can join us by visting our blog!</h3> </div>
           <a className= {styles.btn}href="https://codespacehub.blogspot.com/" target="_blank">Developers Hub</a><br></br>
             {/* <link href ="https://codespacehub.blogspot.com/" >  */}
             {/* <a><h2 className={styles.btn}>Developers Hub</h2></a>
