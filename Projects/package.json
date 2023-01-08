@@ -2,7 +2,7 @@
   "name": "abbas-projectcal",
   "version": "1.0.1",
   "main": "index.js",
-  "type": "module",
+  "type": "commonjs",
   "bin": "./calculator.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,7 +16,9 @@
     "@types/chalk-animation": "^1.6.1",
     "@types/inquirer": "^9.0.3",
     "@types/moment-timezone": "^0.5.30",
-    "@types/node": "^18.11.9"
+    "@types/node": "^18.11.9",
+    "@types/readline-sync": "^1.4.4",
+    "readline-sync": "^1.4.10"
   },
   "dependencies": {
     "abbas-projectcal": "^1.0.1",
