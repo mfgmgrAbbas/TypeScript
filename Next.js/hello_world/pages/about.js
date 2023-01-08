@@ -6,7 +6,7 @@ const About = () => {
     return ( 
       <>
       <Head>
-      <title>MetaVerse Developers</title>
+      <title>MetaVerse Developers!</title>
       <meta name='keyword' content='blog'/>
     </Head>
         <div>
