@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <>
     <Head>
-      <title>MetaVerse Developers</title>
+      <title>MetaVerse Web3.0 Developers</title>
       <meta name='keyword' content='blog'/>
     </Head>
     <div>
