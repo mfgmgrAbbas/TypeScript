@@ -1,28 +1,37 @@
-// import readlineSync from "readline-sync";
-import * as readlineSync from 'readline-sync';
+import inquirer from "inquirer";
 
-
-// Generate a random number between 1 and 100
+// Generate a random number for the player to guess
 const targetNumber = Math.floor(Math.random() * 100) + 1;
 
-// Initialize the number of guesses to 0
-let numGuesses = 0;
+// Define a function to ask the player for their guess
+const askForGuess = () => {
+  inquirer
+    .prompt([
+      {
+        type: 'input',
+        name: 'guess',
+        message: 'Enter your guess:',
+        validate: (input: string) => {
+          // Validate that the input is a number
+          if (!Number.isNaN(Number(input))) {
+            return true;
+          } else {
+            return 'Please enter a valid number';
+          }
+        }
+      }
+    ])
+    .then((answers: { guess: number }) => {
+      // Check if the player's guess is correct
+      if (answers.guess === targetNumber) {
+        console.log('You guessed correctly! Congratulations!');
+      } else {
+        // If the player's guess is not correct, ask for another guess
+        console.log('Incorrect guess, try again.');
+        askForGuess();
+      }
+    });
+};
 
-// Set the game to continue until the player guesses the correct number
-while (true) {
-  // Get the player's guess
-  const guess = parseInt(readlineSync.question("Enter your guess: "));
-
-  // Increase the number of guesses
-  numGuesses++;
-
-  // Check if the guess is correct
-  if (guess === targetNumber) {
-    console.log(`You guessed the correct number in ${numGuesses} guesses!`);
-    break;
-  } else if (guess > targetNumber) {
-    console.log("Your guess is too high. Try again.");
-  } else {
-    console.log("Your guess is too low. Try again.");
-  }
-}
+// Start the game by asking for the player's first guess
+askForGuess();
